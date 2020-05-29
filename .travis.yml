@@ -3,5 +3,5 @@ script:
 
 language: sass
 before_install:
-  - chmod +x mvnw
+  - chmod +x test
   - gem install sass
