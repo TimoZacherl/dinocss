@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Minimal CSS Framework for DIN-5008",
   "main": "base.sass",
+  "repository": {
+    "url": "https://github.com/TimoZacherl/dinocss.git"
+  },
   "scripts": {
     "build": "npm run build-clean && npm run build-sass && npm run build-autoprefix && npm run build-cleancss",
     "build-autoprefix": "postcss --use autoprefixer --map false --output css/base.css css/base.css",
@@ -22,6 +25,6 @@
     "rimraf": "^3.0.2"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@timozacherl"
+    "registry": "https://github.com/TimoZacherl/dinocss"
   }
 }
