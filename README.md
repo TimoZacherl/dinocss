@@ -1,4 +1,4 @@
-# dinocss [![NPM version](https://badge.fury.io/js/dinocss.svg)](https://npmjs.org/package/dinocss) [![Build Status](https://travis-ci.org/TimoZacherl/dinocss.svg?branch=master)](https://travis-ci.org/TimoZacherl/dinocss)
+# dinocss [![Build Status](https://travis-ci.org/TimoZacherl/dinocss.svg?branch=master)](https://travis-ci.org/TimoZacherl/dinocss)
 
 > Minimal CSS Framework for DIN-5008
 
@@ -9,7 +9,7 @@ This is a small css "framework" to create A4 (letter) layouts according to [DIN 
 ## Installation
 
 ```sh
-npm i dinocss
+npm install @timozacherl/dinocss@1.0.0
 ```
 
 ## Usage
