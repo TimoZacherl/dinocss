@@ -1,4 +1,4 @@
-# dinocss [![NPM version](https://badge.fury.io/js/dinocss.svg)](https://npmjs.org/package/dinocss) [![Build Status](https://travis-ci.org/Timo%20Zacherl/dinocss.svg?branch=master)](https://travis-ci.org/Timo%20Zacherl/dinocss)
+# dinocss [![NPM version](https://badge.fury.io/js/dinocss.svg)](https://npmjs.org/package/dinocss) [![Build Status](https://travis-ci.org/TimoZacherl/dinocss.svg?branch=master)](https://travis-ci.org/TimoZacherl/dinocss)
 
 > Minimal CSS Framework for DIN-5008
 
