@@ -3,5 +3,5 @@ script:
 
 language: sass
 before_install:
-  - chmod +x test
+  - chmod +x build.sh
   - gem install sass
