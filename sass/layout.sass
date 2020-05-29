@@ -1,0 +1,41 @@
+.din-5008
+  display: block
+  margin: 0
+  overflow: hidden
+  position: relative
+  box-sizing: border-box
+  page-break-after: always
+  width: 210mm
+  height: 296mm
+  padding-right: 20mm
+  padding-top: 27mm
+
+  // pseudo elements describe fold and punch marks
+  &::before, &::after
+    content: ""
+    position: absolute
+    left: 0
+    display: block
+    border: 1pt solid var(--markers, rgba(0, 0, 0, 0.3))
+    border-left: none
+    border-right: none
+    width: 10mm
+
+    &::after
+      top: 148.5mm
+      width: 15mm
+      border-bottom: none
+
+    &::before
+      height: calc(105mm - 1pt)
+      top: 87mm
+
+  // Alternate version
+  &.version-b
+    padding-top: 45mm !important
+
+    &::before
+      top: 105mm !important
+
+    &::before, &::after
+      display: none

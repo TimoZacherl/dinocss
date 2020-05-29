@@ -1,0 +1,24 @@
+{
+    "name": "dinocss",
+    "version": "1.0.0",
+    "description": "Minimal CSS Framework for DIN-5008",
+    "main": "base.sass",
+    "scripts": {
+        "build": "npm run build-clean && npm run build-sass && npm run build-autoprefix && npm run build-cleancss",
+        "build-autoprefix": "postcss --use autoprefixer --map false --output css/base.css css/base.css",
+        "build-cleancss": "cleancss -o css/base.min.css css/base.css",
+        "build-clean": "rimraf css",
+        "build-sass": "node-sass --output-style expanded --source-map true base.sass css/base.css",
+        "deploy": "npm run build",
+        "start": "npm run build-sass -- --watch"
+    },
+    "author": "Timo Zacherl",
+    "license": "ISC",
+    "devDependencies": {
+        "autoprefixer": "^9.8.0",
+        "clean-css-cli": "^4.3.0",
+        "node-sass": "^4.14.1",
+        "postcss-cli": "^7.1.1",
+        "rimraf": "^3.0.2"
+    }
+}
